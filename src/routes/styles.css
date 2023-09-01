@@ -1,0 +1,58 @@
+:root {
+	--color-text: #ffffff;
+	--blue-50: #9df1ff;
+	--blue-100: #a0cef3;
+	--blue-200: #5b93c0;
+	--blue-300: #3e698b;
+	--blue-400: #2a3e50;
+	--blue-500: #1e2c3a;
+	--blue-600: #192330;
+	--blue-700: #151e28;
+	--blue-800: #0e131b;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins';
+	font-weight: 500;
+	color: var(--color-text);
+}
+
+body {
+	background: var(--blue-500);
+	min-height: 100vh;
+	margin: 0;
+}
+
+h1,
+h2,
+p {
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 2rem;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1rem;
+}
+
+input,
+button {
+	font-size: inherit;
+	font-family: inherit;
+}
+
+button:focus:not(:focus-visible) {
+	outline: none;
+}
+
+@media (min-width: 720px) {
+	h1 {
+		font-size: 2.4rem;
+	}
+}
