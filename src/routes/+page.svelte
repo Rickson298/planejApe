@@ -1,3 +1,7 @@
+<script>
+	import Sidebar from '../core/components/Sidebar.svelte';
+</script>
+
 <svelte:head>
 	<title>Página inicial</title>
 	<meta name="description" content="Organize seu apartamento facilmente com o planejApê" />
@@ -10,5 +14,5 @@
 </svelte:head>
 
 <section>
-	<h1>Hello world</h1>
+	<Sidebar />
 </section>
