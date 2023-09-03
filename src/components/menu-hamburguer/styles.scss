@@ -1,9 +1,11 @@
 .menu_hamburguer_container {
 	border: none;
 	width: 30px;
+
 	height: 30px;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	background: none;
 	transition: all cubic-bezier(0.25, 1.5, 0.25, 1) 0.4s;
 	cursor: pointer;
@@ -62,9 +64,9 @@
 	}
 
 	&::after {
-		bottom: -0.7rem;
+		bottom: -0.5rem;
 	}
 	&::before {
-		bottom: 0.7rem;
+		bottom: 0.5rem;
 	}
 }

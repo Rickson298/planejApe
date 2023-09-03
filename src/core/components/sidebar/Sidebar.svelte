@@ -1,4 +1,5 @@
 <script>
+	import House from 'phosphor-svelte/lib/House';
 	import { elasticOut } from 'svelte/easing';
 	import { fly } from 'svelte/transition';
 
@@ -14,6 +15,12 @@
 			<span transition:fly={{ y: 15, easing: elasticOut }}>Menu</span>
 		{/if}
 	</Flex>
+
+	<Flex>
+		<House size={30} color="var(--blue-300)" />
+	</Flex>
+
+	<Flex />
 </div>
 
 <style src="./styles.scss"></style>

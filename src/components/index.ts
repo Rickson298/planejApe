@@ -1,3 +1,5 @@
 import Flex from './flex/Flex.svelte';
 import MenuHamburguer from './menu-hamburguer/MenuHamburguer.svelte';
-export { Flex, MenuHamburguer };
+import Text from './text/text.svelte';
+
+export { Flex, MenuHamburguer, Text };
