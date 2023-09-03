@@ -6,6 +6,7 @@
 	}
 </script>
 
+
 <button class="menu_hamburguer_container" class:is_open={isOpen} on:click={handleSidebar}>
 	<div class="menu_hamburguer" />
 </button>
