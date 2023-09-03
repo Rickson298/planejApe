@@ -1,5 +1,5 @@
 <script>
-	import Sidebar from '../core/components/Sidebar.svelte';
+	import { Sidebar } from '$core/components';
 </script>
 
 <svelte:head>

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { FlexDirection, JustifyContent, AligItems } from '../shared/types';
+	import type { AligItems, FlexDirection, JustifyContent } from '$shared/types';
 
 	export let justifyContent: JustifyContent = 'center';
 	export let direction: FlexDirection = 'row';

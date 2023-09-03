@@ -1,3 +1,3 @@
-import Flex from './Flex.svelte';
-import MenuHamburguer from './MenuHamburguer.svelte';
+import Flex from './flex/Flex.svelte';
+import MenuHamburguer from './menu-hamburguer/MenuHamburguer.svelte';
 export { Flex, MenuHamburguer };
