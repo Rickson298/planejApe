@@ -1,19 +1,19 @@
 <script lang="ts">
-	let isOpen = false;
+	export let isActive = false;
 
 	function handleSidebar() {
-		isOpen = !isOpen;
+		isActive = !isActive;
 	}
 </script>
 
-<button class="menu_hamburguer_container" class:is_open={isOpen} on:click={handleSidebar}>
+<button class="menu_hamburguer_container" class:is_open={isActive} on:click={handleSidebar}>
 	<div class="menu_hamburguer" />
 </button>
 
 <style lang="scss">
 	.menu_hamburguer_container {
 		border: none;
-		width: 100%;
+		width: 30px;
 		height: 30px;
 		display: flex;
 		align-items: center;
