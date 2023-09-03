@@ -2,8 +2,7 @@
 	import { elasticOut } from 'svelte/easing';
 	import { fly } from 'svelte/transition';
 
-	import Flex from '../../components/Flex.svelte';
-	import MenuHamburguer from '../../components/MenuHamburguer.svelte';
+	import { Flex, MenuHamburguer } from '$components';
 
 	let isOpen = false;
 </script>
