@@ -7,16 +7,18 @@
 	export let gap = '1rem';
 	export let width = 'fit-content';
 	export let padding = '0';
+	export let height = 'fit-content';
 </script>
 
 <div
-	style="display:flex; height:fit-content"
+	style="display:flex"
 	style:justify-content={justifyContent}
 	style:flex-direction={direction}
 	style:align-items={alignItems}
 	style:width
 	style:gap
 	style:padding
+	style:height
 >
 	<slot />
 </div>

@@ -11,6 +11,6 @@ export const ROUTES: Array<{ icon: ComponentType; route: string; label: string }
 	{
 		icon: Couch,
 		label: 'Produtos do apê',
-		route: '/products'
+		route: '/produtos'
 	}
 ];

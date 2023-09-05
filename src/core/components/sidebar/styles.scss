@@ -10,8 +10,8 @@
 	background-color: var(--blue-700);
 	transition: all cubic-bezier(0.25, 1.5, 0.25, 1) 0.4s;
 
-	&.open {
-		width: 350px;
+	&.--open {
+		width: 250px;
 	}
 }
 

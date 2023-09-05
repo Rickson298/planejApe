@@ -13,7 +13,7 @@
 	$: route = $page.route.id;
 </script>
 
-<div class="sidebar" class:open={isOpen}>
+<div class="sidebar" class:--open={isOpen}>
 	<Flex padding="2rem 1.25rem" justifyContent="start">
 		<MenuHamburguer bind:isActive={isOpen} />
 		{#if isOpen}
