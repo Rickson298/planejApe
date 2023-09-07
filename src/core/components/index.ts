@@ -1,2 +1,4 @@
 import Sidebar from './sidebar/Sidebar.svelte';
-export { Sidebar };
+import PageTransition from './page-transition/PageTransition.svelte';
+
+export { Sidebar, PageTransition };

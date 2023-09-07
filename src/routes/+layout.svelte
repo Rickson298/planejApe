@@ -1,6 +1,5 @@
 <script lang="ts">
-	import PageTransition from '$components/PageTransition.svelte';
-	import { Sidebar } from '$core/components';
+	import { Sidebar, PageTransition } from '$core/components';
 	import type { LayoutServerData } from './$types';
 	import './styles.css';
 
@@ -11,9 +10,11 @@
 	<main>
 		<Sidebar />
 
-		<PageTransition pathname={data.pathname}>
-			<slot />
-		</PageTransition>
+		<div style="width: 100%;">
+			<PageTransition pathname={data.pathname}>
+				<slot />
+			</PageTransition>
+		</div>
 	</main>
 </div>
 
