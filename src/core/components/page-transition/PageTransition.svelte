@@ -3,15 +3,25 @@
 </script>
 
 {#key pathname}
-	<div style:padding="1rem" style="height: 100%">
+	<main>
 		<slot />
-	</div>
+	</main>
 {/key}
 
 <style>
-	div {
+	main {
+		display: flex;
 		animation: opacityAnimation 1s backwards;
 		animation-delay: 100ms;
+		width: 100%;
+		min-height: calc(100dvh - 80px);
+		padding: 1rem;
+		/* // offset of sidebar */
+		padding-left: calc(73px + 1rem);
+
+		@media (max-width: 680px) {
+			padding-left: 1rem;
+		}
 	}
 
 	@keyframes opacityAnimation {

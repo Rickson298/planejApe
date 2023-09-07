@@ -1,25 +1,30 @@
 <script lang="ts">
-	import { Sidebar, PageTransition } from '$core/components';
+	import { Header, PageTransition, Sidebar } from '$core/components';
 	import type { LayoutServerData } from './$types';
 	import './styles.css';
 
 	export let data: LayoutServerData;
 </script>
 
-<div class="app">
-	<main>
-		<Sidebar />
+<main>
+	<Sidebar />
+	<div class="content">
+		<Header />
 
-		<div style="width: 100%;">
-			<PageTransition pathname={data.pathname}>
-				<slot />
-			</PageTransition>
-		</div>
-	</main>
-</div>
+		<PageTransition pathname={data.pathname}>
+			<slot />
+		</PageTransition>
+	</div>
+</main>
 
-<style>
+<style lang="scss">
 	main {
 		display: flex;
+
+		.content {
+			min-height: 100dvh;
+			height: 100%;
+			width: 100%;
+		}
 	}
 </style>

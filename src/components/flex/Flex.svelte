@@ -4,7 +4,7 @@
 	export let justifyContent: JustifyContent = 'center';
 	export let direction: FlexDirection = 'row';
 	export let alignItems: AligItems = 'center';
-	export let gap = '1rem';
+	export let gap = '0';
 	export let width = 'fit-content';
 	export let padding = '0';
 	export let height = 'fit-content';
@@ -19,6 +19,7 @@
 	style:gap
 	style:padding
 	style:height
+	{...$$props}
 >
 	<slot />
 </div>

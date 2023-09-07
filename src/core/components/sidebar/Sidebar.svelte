@@ -14,13 +14,13 @@
 </script>
 
 <div class="sidebar" class:open={isOpen}>
-	<Flex padding="2rem 1.25rem" justifyContent="start">
+	<div class="container_menu">
 		<MenuHamburguer bind:isActive={isOpen} />
 		{#if isOpen}
 			<span transition:fly={{ y: 15, easing: elasticOut }}>Menu</span>
 		{/if}
-	</Flex>
-	<Flex direction="column" gap="0" width="100%">
+	</div>
+	<Flex direction="column" width="100%">
 		{#each ROUTES as item (item.route)}
 			{@const selected = route === item.route}
 
