@@ -11,6 +11,10 @@
 	let isOpen = false;
 
 	$: route = $page.route.id;
+	$: {
+		route;
+		isOpen = false;
+	}
 </script>
 
 <div class="sidebar" class:open={isOpen}>
