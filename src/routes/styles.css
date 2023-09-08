@@ -21,6 +21,11 @@
 	color: var(--color-text);
 }
 
+button {
+	border: none;
+	background: none;
+}
+
 body {
 	background: var(--blue-500);
 	min-height: 100vh;
