@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { expoOut } from 'svelte/easing';
 	import { fly } from 'svelte/transition';
 	import Gear from 'phosphor-svelte/lib/Gear';
 	import SignOut from 'phosphor-svelte/lib/SignOut';
@@ -29,7 +30,7 @@
 		on:blur={closeUserOptions}
 	>
 		{#if isOpenPopup}
-			<div class="popup" transition:fly={{ y: 25 }}>
+			<div class="popup" transition:fly={{ y: 25, easing: expoOut }}>
 				<button class="popup_option">
 					<UserSwitch size={24} color="var(--blue-300)" />
 					<Typography fontWeight="400">Trocar de conta</Typography>
