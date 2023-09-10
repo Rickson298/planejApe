@@ -95,9 +95,9 @@
 
 @media (max-width: 680px) {
 	.sidebar:not(.open) {
-		width: 60px;
-		height: 60px;
-		background: transparent;
+		width: 70px;
+		height: 70px;
+		background: var(--blue-500);
 	}
 	.sidebar.open {
 		width: 100vw;

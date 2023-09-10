@@ -22,6 +22,7 @@
 		display: flex;
 
 		.content {
+			min-height: 100vh;
 			min-height: 100dvh;
 			height: 100%;
 			width: 100%;
