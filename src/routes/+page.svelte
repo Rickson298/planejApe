@@ -4,7 +4,7 @@
 	import Bag from 'phosphor-svelte/lib/Bag';
 	import CurrencyCircleDollar from 'phosphor-svelte/lib/CurrencyCircleDollar';
 	import Television from 'phosphor-svelte/lib/TelevisionSimple';
-	import { Flex, Typography } from '$components';
+	import { Flex, PageTitle, Typography } from '$components';
 </script>
 
 <svelte:head>
@@ -13,12 +13,10 @@
 </svelte:head>
 
 <article class="home_content">
-	<Flex direction="column" alignItems="start">
-		<Typography fontSize="2rem" fontWeight="600">Bem-vindo ao PlaneApê</Typography>
-		<Typography color="blue-200" fontSize="0.875rem" fontWeight="400"
-			>Sua Lista de Desejos para o Apartamento, Sempre à Mão</Typography
-		>
-	</Flex>
+	<PageTitle
+		title="Bem-vindo ao PlaneApê"
+		subtitle="Sua Lista de Desejos para o Apartamento, Sempre à Mão"
+	/>
 	<Flex alignItems="start" direction="column" gap="2rem">
 		<div class="description">
 			<Typography fontSize="1.5rem" fontWeight="500"
