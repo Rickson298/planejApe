@@ -2,8 +2,7 @@
 	import Bug from 'phosphor-svelte/lib/Bug';
 
 	import { page } from '$app/stores';
-
-	import { Flex, Typography } from '$components';
+	import { Flex, Typography } from 'planejape-ui-svelte';
 </script>
 
 <svelte:head>

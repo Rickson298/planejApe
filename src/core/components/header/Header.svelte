@@ -1,10 +1,10 @@
 <script lang="ts">
+	import { Typography } from 'planejape-ui-svelte';
 	import { expoOut } from 'svelte/easing';
 	import { fly } from 'svelte/transition';
 	import Gear from 'phosphor-svelte/lib/Gear';
 	import SignOut from 'phosphor-svelte/lib/SignOut';
 	import UserSwitch from 'phosphor-svelte/lib/UserSwitch';
-	import { Typography } from '$components';
 
 	let isOpenPopup = false;
 	let containerMenu: HTMLButtonElement | null;
@@ -47,7 +47,7 @@
 			<div class="avatar_content">
 				<span class="username">RO</span>
 				<div class="container_icon">
-					<Gear class="teste" size={28} />
+					<Gear size={28} />
 				</div>
 			</div>
 		</div>

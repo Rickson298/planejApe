@@ -22,6 +22,7 @@
 		position: absolute;
 		animation: opacityAnimation 0.5s backwards;
 		animation-delay: 200ms;
+		padding-right: 1rem;
 
 		/* // offset of sidebar */
 		padding-left: 140px;

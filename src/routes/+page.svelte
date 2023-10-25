@@ -4,7 +4,8 @@
 	import Bag from 'phosphor-svelte/lib/Bag';
 	import CurrencyCircleDollar from 'phosphor-svelte/lib/CurrencyCircleDollar';
 	import Television from 'phosphor-svelte/lib/TelevisionSimple';
-	import { Flex, PageTitle, Typography } from '$components';
+	import { PageTitle } from '$components';
+	import { Flex, Typography } from 'planejape-ui-svelte';
 </script>
 
 <svelte:head>

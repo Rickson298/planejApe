@@ -1,10 +1,11 @@
 <script>
+	import { Flex } from 'planejape-ui-svelte';
 	import { elasticOut } from 'svelte/easing';
 	import { fade, fly } from 'svelte/transition';
 
 	import { page } from '$app/stores';
 
-	import { Flex, MenuHamburguer } from '$components';
+	import { MenuHamburguer } from '$components';
 
 	import { ROUTES } from './constants';
 

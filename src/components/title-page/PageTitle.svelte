@@ -1,5 +1,5 @@
 <script>
-	import { Flex, Typography } from '$components';
+	import { Flex, Typography } from 'planejape-ui-svelte';
 
 	export let title = '';
 	export let subtitle = '';
