@@ -1,6 +1,6 @@
 <script>
-	import { PageTitle } from '$components';
 	import { Flex, Input } from 'planejape-ui-svelte';
+	import { PageTitle } from '$components';
 </script>
 
 <svelte:head>
@@ -14,6 +14,9 @@
 		subtitle="Veja os produtos que você salvou para seu apartamento"
 	/>
 
-	<Input placeholder="Pesquise por algum item" />
+	<Input placeholder="Pesquise por algum item" style="width: 100%" />
 	<Input helperText="Campo obrigatório" placeholder="Pesquise por algum item" />
 </Flex>
+
+<style lang="scss">
+</style>

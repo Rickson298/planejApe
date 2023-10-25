@@ -13,7 +13,7 @@
 <style>
 	main {
 		display: flex;
-
+		flex-direction: column;
 		animation-delay: 100ms;
 		width: 100%;
 		min-height: calc(100vh - 80px);
@@ -23,6 +23,7 @@
 		animation: opacityAnimation 0.5s backwards;
 		animation-delay: 200ms;
 		padding-right: 1rem;
+		gap: 2.5rem;
 
 		/* // offset of sidebar */
 		padding-left: 140px;
