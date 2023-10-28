@@ -31,7 +31,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"planejape-ui-svelte": "^0.0.21",
+		"planejape-ui-svelte": "^0.0.24",
 		"sass": "^1.66.1",
 		"svelte-lib-test-rp": "^0.0.13"
 	}
