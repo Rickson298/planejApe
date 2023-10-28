@@ -23,7 +23,7 @@
 			<Typography fontSize="1.5rem" fontWeight="500"
 				>Tenha uma Visão Completa dos Produtos e Apartamentos do Seu Novo Lar</Typography
 			>
-			<Typography fontWeight="400" color="blue-200">
+			<Typography fontWeight="400" color="gray-200">
 				Bem-vindo ao PlanejApê, sua plataforma para planejar e decorar seu novo apartamento com
 				facilidade. Com nossa ferramenta, você pode criar uma lista detalhada de produtos desejados
 				para o espaço, além de salvar seus apartamentos favoritos. Personalize cada detalhe do seu
