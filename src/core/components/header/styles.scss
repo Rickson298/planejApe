@@ -5,7 +5,6 @@ header {
 	align-items: center;
 	height: 80px;
 	padding: 0.35rem;
-	position: fixed;
 	background: var(--blue-500);
 	z-index: 1;
 
@@ -24,20 +23,21 @@ header {
 		background: none;
 		animation: fromRight 0.5s backwards;
 		animation-delay: 250ms;
+		color: var(--white);
 
 		.popup {
-			border-radius: 0.75rem;
+			border-radius: 1rem;
 			top: 74px;
-			padding: 1rem;
+			padding: 0.5rem;
 			position: absolute;
 			background: var(--blue-400);
 			z-index: 2;
 			display: flex;
 			flex-direction: column;
 			align-items: start;
-			gap: 1rem;
 			transition: all cubic-bezier(0.25, 1.5, 0.25, 1) 0.75s;
 			right: 0;
+			box-shadow: 1px 1px 10px var(--blue-500);
 
 			.popup_option {
 				border: none;
@@ -47,9 +47,12 @@ header {
 				gap: 0.5rem;
 				cursor: pointer;
 				transition: all ease 0.2s;
+				padding: 0.5rem;
+				width: 100%;
+				border-radius: 0.5rem;
 
 				&:hover {
-					filter: brightness(0.8);
+					background: var(--blue-500);
 				}
 			}
 		}
@@ -93,6 +96,10 @@ header {
 		&:active {
 			background: var(--blue-600);
 		}
+	}
+
+	@media (max-width: 680px) {
+		position: fixed;
 	}
 }
 

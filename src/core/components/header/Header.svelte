@@ -32,12 +32,12 @@
 		{#if isOpenPopup}
 			<div class="popup" transition:fly={{ y: 25, easing: expoOut }}>
 				<button class="popup_option">
-					<UserSwitch size={24} color="var(--blue-300)" />
-					<Typography fontWeight="400">Trocar de conta</Typography>
+					<UserSwitch size={22} color="var(--blue-300)" />
+					<Typography fontSize="0.875rem" fontWeight="400">Trocar de conta</Typography>
 				</button>
 				<button class="popup_option">
-					<SignOut size={24} color="var(--blue-300)" />
-					<Typography fontWeight="400">Sair</Typography>
+					<SignOut size={22} color="var(--blue-300)" />
+					<Typography fontSize="0.875rem" fontWeight="400">Sair</Typography>
 				</button>
 			</div>
 		{/if}
