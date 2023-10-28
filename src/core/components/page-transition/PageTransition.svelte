@@ -22,17 +22,16 @@
 		position: absolute;
 		animation: opacityAnimation 0.5s backwards;
 		animation-delay: 200ms;
-		padding-right: 1rem;
+		padding-right: 3rem;
 		gap: 2.5rem;
 
 		/* // offset of sidebar */
-		padding-left: 140px;
-
-		/* // offset of header */
-		margin-top: 80px;
+		padding-left: calc(73px + 3rem);
 
 		@media (max-width: 680px) {
-			padding-left: 1rem;
+			/* // offset of header */
+			margin-top: 80px;
+			padding-inline: 1rem;
 		}
 	}
 	@keyframes opacityAnimation {
