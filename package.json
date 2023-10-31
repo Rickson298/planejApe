@@ -33,7 +33,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"planejape-ui-svelte": "^0.0.26",
+		"planejape-ui-svelte": "^0.0.27",
 		"sass": "^1.66.1"
 	}
 }
