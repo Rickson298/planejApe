@@ -18,12 +18,12 @@
 		width: 100%;
 		min-height: calc(100vh - 80px);
 		min-height: calc(100dvh - 80px);
-		padding: 1rem;
 		position: absolute;
 		animation: opacityAnimation 0.5s backwards;
 		animation-delay: 200ms;
 		padding-right: 3rem;
 		gap: 2.5rem;
+		padding-bottom: 2rem;
 
 		/* // offset of sidebar */
 		padding-left: calc(73px + 3rem);

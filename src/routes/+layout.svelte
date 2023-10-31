@@ -5,7 +5,7 @@
 
 	import { Header, PageTransition, Sidebar } from '$core/components';
 
-	import './styles.css';
+	import './globals.css';
 
 	import type { BreadcrumbItem } from 'planejape-ui-svelte';
 	import type { LayoutServerData } from './$types';
