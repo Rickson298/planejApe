@@ -10,11 +10,11 @@
 	import type { BreadcrumbItem } from 'planejape-ui-svelte';
 	import type { LayoutServerData } from './$types';
 
-	import { PAGE_ROUTES } from '$shared/constants/page-routes';
+	import { ROUTES } from '$shared/constants';
 
 	export let data: LayoutServerData;
 
-	$: currentPath = PAGE_ROUTES.find((route) => route.path === data.pathname);
+	$: currentPath = ROUTES.find((route) => route.path === data.pathname);
 
 	const homeBreadcrumb: BreadcrumbItem = { label: 'Início', href: '/', icon: House };
 

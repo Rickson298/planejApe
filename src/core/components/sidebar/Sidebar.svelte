@@ -7,7 +7,7 @@
 
 	import { MenuHamburguer } from '$components';
 
-	import { ROUTES } from './constants';
+	import { ROUTES } from '$shared/constants';
 
 	let isOpen = false;
 
@@ -26,10 +26,10 @@
 		{/if}
 	</div>
 	<Flex direction="column" width="100%">
-		{#each ROUTES as item (item.route)}
-			{@const selected = route === item.route}
+		{#each ROUTES as item (item.path)}
+			{@const selected = route === item.path}
 
-			<a class:selected href={item.route} class="container_link">
+			<a class:selected href={item.path} class="container_link">
 				<div class="container_icon">
 					<svelte:component
 						this={item.icon}

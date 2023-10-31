@@ -32,7 +32,7 @@
 		</div>
 		<Flex gap="1.5rem" justifyContent="start" width="100%" wrap="wrap">
 			<button class="cta_button">
-				<a href="produtos" class="link">
+				<a href="/products" class="link">
 					<Couch size={25} />
 					Adicionar produto
 				</a>
