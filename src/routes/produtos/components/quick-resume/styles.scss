@@ -1,11 +1,11 @@
 .quick-resume__container {
-	min-height: 415px;
 	background: var(--blue-400);
 	border-radius: 1.5rem;
 	padding: 1rem;
 	display: flex;
 	flex-direction: column;
 	gap: 3.25rem;
+	height: fit-content;
 
 	.total-amount__container {
 		background: var(--blue-300);
