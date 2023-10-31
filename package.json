@@ -21,6 +21,7 @@
 		"eslint": "^8.28.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte": "^2.30.0",
+		"json-server": "^0.17.4",
 		"phosphor-svelte": "^1.3.0",
 		"prettier": "^2.8.0",
 		"prettier-plugin-svelte": "^2.10.1",
@@ -28,13 +29,11 @@
 		"svelte-check": "^3.4.3",
 		"tslib": "^2.4.1",
 		"typescript": "^5.0.0",
-		"vite": "^4.4.2",
-		"json-server": "^0.17.4"
+		"vite": "^4.4.2"
 	},
 	"type": "module",
 	"dependencies": {
 		"planejape-ui-svelte": "^0.0.26",
-		"sass": "^1.66.1",
-		"svelte-lib-test-rp": "^0.0.13"
+		"sass": "^1.66.1"
 	}
 }

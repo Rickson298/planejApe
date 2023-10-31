@@ -2251,11 +2251,6 @@ svelte-hmr@^0.15.3:
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.15.3.tgz#df54ccde9be3f091bf5f18fc4ef7b8eb6405fbe6"
   integrity sha512-41snaPswvSf8TJUhlkoJBekRrABDXDMdpNpT2tfHIv4JuhgvHqLMhEPGtaQn0BmbNSTkuz2Ed20DF2eHw0SmBQ==
 
-svelte-lib-test-rp@^0.0.13:
-  version "0.0.13"
-  resolved "https://registry.yarnpkg.com/svelte-lib-test-rp/-/svelte-lib-test-rp-0.0.13.tgz#a9fa2de17523fb73677f365eafe9de4a74e7aede"
-  integrity sha512-KibmyIu9XuyeCYtPV07Cr+SOhgQ6efYIIorPNM0vZAeqkv5FAztRDTBQzweOHzN7vRFKEcuufmTPu5Jiu6PY3w==
-
 svelte-preprocess@^5.0.4:
   version "5.0.4"
   resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-5.0.4.tgz#2123898e079a074f7f4ef1799e10e037f5bcc55b"
