@@ -1,10 +1,12 @@
 <script lang="ts">
+	import type { ProductItem } from '$services/products/get-products/types';
 	import Product from '../product/Product.svelte';
-	import { fakeProducts } from './mocks';
+
+	export let products: ProductItem[] = [];
 </script>
 
 <div class="products__container">
-	{#each fakeProducts as product}
+	{#each products as product}
 		<Product {...product} isFavorite={product.is_favorite} />
 	{/each}
 </div>

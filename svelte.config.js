@@ -17,6 +17,9 @@ const config = {
 			$components: "src/components",
 			$core: "src/core",
 			$shared: "src/shared",
+			$services: "src/services",
+			$stores: "src/stores",
+			'$http-request': "src/http-request",
 		},
 	}
 };
